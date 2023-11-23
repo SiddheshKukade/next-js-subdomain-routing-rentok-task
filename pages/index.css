@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.global{
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    transition: all .5s;
+    font-family: 'Ubuntu';
+    background: linear-gradient(124deg, #dd00f3, #2b1de8, #1ddde8, #1de840, #e3e81d, #e8b71d, #e81d1d, #ff2400, #dd00f3);
+
+    background-size: 1800% 1800%;
+    
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 18s ease infinite;
+    -o-animation: rainbow 18s ease infinite;
+      animation: rainbow 18s ease infinite;
+}
+/* .container-dark-mode will run when the dark mode is active */
+.container-dark-mode {
+    background: none !important;
+    background-color: #181A1B !important;
+    color: #ffffff;
+   
+}
+#toggleDayOrNight {
+    cursor: pointer;
+    background-image: url("https://img.icons8.com/dusk/64/000000/new-moon.png");
+    background-color: black;
+    background-repeat: no-repeat;
+    width: 64px;
+    height: 64px;
+    align-items: flex-end;
+    border-radius: 50%;
+    transition: all .5s;
+}
+/* .content is default style of div.content */
+.content {
+    width: 25%;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #ecf0f1;
+    box-shadow: 4px 4px 30px #bdc3c7;
+}
+/* .content-dark-mode will run when the dark mode is active */
+.content-dark-mode {
+    background-color: #2B2E30;
+    box-shadow: 4px 4px 25px #202324;
+}
+/* Go To Website's button that displayed in footer of .content */
+.btn {
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: #2185D0;
+    text-decoration: none;
+    color: #fff;
+}
+.btn:hover {
+    background-color: #1767D0;
+}
+/* .btn-dark-mode-mode will run when the dark mode is active */
+.btn-dark-mode {
+    background-color: #19659E;
+}
+.btn-dark-mode:hover {
+    background-color: #1354AA;
+}
+@media only screen and (max-width: 700px) {
+    .content {
+        width: 60%;
+    }
+}
+@media only screen and (max-height: 400px) {
+    .content {
+        width: 60%;
+    }
+}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
