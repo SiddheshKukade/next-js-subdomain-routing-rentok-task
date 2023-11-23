@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div id="top"></div>
 
-## Getting Started
+![License: MIT](https://img.shields.io/badge/LICESNSE-MIT-blue?style=for-the-badge)
+![Issues Open ](https://img.shields.io/github/issues/SiddheshKukade/next-js-subdomain-routing-rentok-task?style=for-the-badge)
+![Forks ](https://img.shields.io/github/forks/SiddheshKukade/next-js-subdomain-routing-rentok-task?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/SiddheshKukade/next-js-subdomain-routing-rentok-task?style=for-the-badge)
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
 
-First, run the development server:
+  <h2 align="center">NextJS -  Subdomain routing example demo</h2>
+  <h3 align="center"></h3>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+  <p align="center">
+    Created with NextJS  & ❤️ by @SiddheshKukade
+    <br />
+  
+ </p>
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+##  Video Demo :  
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+ 
+Video Demo :  https://www.youtube.com/watch?v=oSmkcV2rwp0
 
-## Learn More
+ 
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[![Video Demo for Subdomain routing nextJS](https://github.com/SiddheshKukade/next-js-subdomain-routing-rentok-task/assets/65951872/b7f3ae5e-96e3-44b9-8892-37adcf848b72)](https://www.youtube.com/watch?v=oSmkcV2rwp0)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Demo : [forAll.netlify.app](https://for-all.netlify.app/) (Backend Deployment is in Progress. The URL may not work properly )
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+### Installation
+
+1.  `npm install`
+2.  `npm run dev `
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CONTACT -->
+## Contact
+
+Siddhesh Bhupendra Kukade  - [@TheSidK_](https://twitter.com/TheSidK_) - siddheshkukade2003@gmail.com
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+ 
